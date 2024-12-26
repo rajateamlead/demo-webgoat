@@ -4,7 +4,12 @@ jobs:
   vulnerabilities-scan:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: debricked/actions/scan@v1
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run Debricked scan
+        uses: debricked/actions/scan@v1
         env:
           DEBRICKED_TOKEN: ${{ secrets.DEBRICKED_TOKEN }}
+          ACTIONS_RUNNER_DEBUG: true
+          ACTIONS_STEP_DEBUG: true
