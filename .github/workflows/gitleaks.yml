@@ -3,10 +3,10 @@ name: Secret Scanning with Gitleaks
 on:
   push:
     branches:
-      - main
+      - "**" # ALL branches
   pull_request:
     branches:
-      - main
+      - "**" # ALL branches
 
 jobs:
   gitleaks-scan:
