@@ -1,0 +1,18 @@
+# AWS Keys
+AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
+# GitHub Token
+GITHUB_TOKEN = "ghp_1234567890abcdefghijklmnopqrstuvwxy"
+
+# Slack Token
+SLACK_BOT_TOKEN = "xoxb-123456789012-1234567890123-ABCDEFGHIJKLmnopqrstuvwx"
+
+# Google API Key
+GOOGLE_API_KEY = "AIzaSyD-EXAMPLEKEY"
+
+# Database Password
+DB_PASSWORD = "SuperSecret123!"
+
+# Personal Access Token (PAT)
+PAT_TOKEN = "ghp_0987654321abcdef1234567890abcdef12345"
