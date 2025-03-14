@@ -18,8 +18,8 @@ jobs:
 
       - name: Install Gitleaks
         run: |
-          apt update
-          apt install gitleaks
+          sudo apt update
+          sudo apt install gitleaks
 
       - name: Run Gitleaks Scan
         run: |
